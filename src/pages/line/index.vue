@@ -4,7 +4,7 @@
 
 <template>
   <div class="index">
-    <bar-chart
+    <line-chart
       :chart-data="chart.chartDataSets"
       :height="400"
     />
@@ -16,13 +16,13 @@ import { defineComponent } from 'vue';
 import { useChart } from '@/store/chart';
 
 export default defineComponent({
-  name: 'HomePage',
+  name: 'LineChartPage',
   setup () {
     const chart = useChart();
     return { chart };
   },
   head: {
-    title: '바'
+    title: '라인'
   }
 });
 </script>
