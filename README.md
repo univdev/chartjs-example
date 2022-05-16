@@ -1,42 +1,19 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
-
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
+# Chart.js 사용해보기
+## 환경
+- Nuxt3
+- Typescript
+- Less
+- Element Plus
+- Chart.js
+- Vue Chart.js
+# 실행
+**Yarn**
 ```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
+yarn
+yarn dev
+```
+**npm**
+```
+npm i
 npm run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
